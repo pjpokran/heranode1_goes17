@@ -1,0 +1,12 @@
+#* * * * * /home/poker/goes16/meso_grb/run_GRB_meso1_vis_sqrt.sh 
+#* * * * * /home/poker/goes16/meso_grb/run_GRB_meso2_vis_sqrt.sh 
+#* * * * * /home/poker/goes16/meso_grb/run_GRB_meso1_ircm.sh 
+#* * * * * /home/poker/goes16/meso_grb/run_GRB_meso2_ircm.sh 
+#* * * * * /home/poker/goes16/meso_grb/run_GRB_meso1_wvc.sh 
+#* * * * * /home/poker/goes16/meso_grb/run_GRB_meso2_wvc.sh 
+#* * * * * /home/poker/goes16/meso_grb/run_GRB_meso1_wvl.sh 
+#* * * * * /home/poker/goes16/meso_grb/run_GRB_meso2_wvl.sh 
+#* * * * * /home/poker/goes16/meso_grb/run_GRB_meso1_wvh.sh 
+#* * * * * /home/poker/goes16/meso_grb/run_GRB_meso2_wvh.sh 
+
+3,8,13,18,23,28,33,38,43,48,53,58 * * * * /usr/bin/find /dev/shm/goes16_images -type f -mmin +2880 -delete
