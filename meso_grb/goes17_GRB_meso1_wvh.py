@@ -660,7 +660,7 @@ if f.platform_ID == "G17":
     time_string = 'GOES-17 Upper level water vapor (ABI ch 8)\n %s'%ctime_string
 elif f.platform_ID == "G18":
     time_string = 'GOES-18 Upper level water vapor (ABI ch 8)\n %s'%ctime_string
-else":
+else:
     time_string = 'GOES-West Upper level water vapor (ABI ch 8)\n %s'%ctime_string
 print(time_string)
 
